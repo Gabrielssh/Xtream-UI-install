@@ -154,7 +154,7 @@ def install(rType="MAIN"):
 def update(rType="MAIN"):
     if rType == "UPDATE":
         printc("Enter the link of release_xyz.zip file:", col.BRIGHT_RED)
-        rlink = input('Example: https://bitbucket.org/gabrielssh/x-ui/downloads/release_22f.zip.zip\n\nNow enter the link:\n\n')
+        rlink = input('Example: https://bitbucket.org/gabrielssh/x-ui/downloads/release_22f.zip\n\nNow enter the link:\n\n')
     else:
         rlink = "https://bitbucket.org/gabrielssh/x-ui/downloads/release_22f.zip"
         printc("Downloading Software Update")  
